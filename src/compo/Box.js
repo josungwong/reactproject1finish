@@ -6,7 +6,7 @@ import React from 'react'
 const Box = (ect) => {
     let result
     if(ect.title === "Computer" && ect.result !== "" && ect.result !== "Tie"){
-      result = ect.result=="Win"?"Lose":"Win"
+      result = ect.result==="Win"?"Lose":"Win"
     }else{
       result = ect.result
     }
