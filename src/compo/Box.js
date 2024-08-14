@@ -13,7 +13,7 @@ const Box = (ect) => {
   return (
     <div className={`box ${result}`}>
         <h1>{ect.title}</h1>
-        <img src={ect.item && ect.item.img} alt='none' className='item-img'/>
+        <img src={ect.item && ect.item.img} alt='' className='item-img'/>
         <h2>{result}</h2>
     </div>
   )
